@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css" />
+	<meta charset="utf-8" />
+    <style>
+
+        *{
+
+              font-family: 'Convergence', sans-serif;
+         }
+        body{
+            font-size:16px;
+            color:#fff;
+            background-color:white;
+           
+        }
+        #header-nav{
+            background-color:grey;
+            border-radius:0;
+            border:0;
+            border-bottom:3px solid black;
+          
+        }
+
+       
+        .navbar-brand{
+            padding-top:15px;
+        
+          
+        }
+        
+        
+        .navbar-brand p{
+            
+            color:black;
+            font-size:1.5em;           
+            font-weight:bold;
+            text-shadow:1px 1px 1px #222;
+            padding-top:-50px;
+                               
+           
+        }
+        @media (min-width: 767px) {
+          #nav-list a{
+            visibility:hidden;
+        }
+
+        }
+       
+        #nav-list a{
+            color:black;
+            text-align:center;
+            border:1px solid black;
+            border-top:0px;
+            margin-bottom:0px;
+           
+        }
+        #nav-list a:hover{
+            background:white;
+        }
+       
+        
+        .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+            border:1px solid white;
+            
+        }
+
+      
+        #menu a{
+            font-size:1.2em;
+        }
+      
+
+        #box{
+           
+            width:100%;
+            margin-bottom:15px;
+            position:relative;
+            border:2px solid gray;
+            background-color:grey;
+           
+            
+        }
+      
+      
+        
+         #box span{
+            position:absolute;
+            top:0;
+            right:0;
+            width:100%;
+            text-align:center;
+            font-size:1.2em;     
+           color:black;
+           font-weight:bold;
+           
+            
+        }
+         #box p{
+             margin-top:20px;
+            padding:10px;
+             color:black;
+
+         }
+       
+       h2{
+           color:black;
+           text-align:center;
+           padding-bottom:15px;
+           
+       }
+ 
+
+    
+  
+
+
+    </style>
+
+</head>
+<body data-spy="scroll">
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                   
+                    <div class="navbar-brand">
+                        <a href="#"><p>Food, LLC</p></a>
+                        
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                        <span class="sr-only">Toogle</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+                </div>
+
+                <div id="menu" class="collapse navbar-collapse ">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#Chicken"> Chicken </a>
+                        </li>
+                        <li>
+                            <a href="#Beef"> Beef  </a>
+                        </li>
+                        <li>
+                            <a href="#Sushi"> Sushi  </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+               
+
+        </nav>
+
+    </header>
+   
+     <!--gövde-->
+
+    <div id="main-content" class="container">
+      <h2>Our Menu</h2>
+        <div id="home-tiles" class="row">
+           
+             <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div id="Chicken">
+                     <div id="box">
+                         <span>Chicken</span>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at dolor velit. Curabitur tortor eros, rutrum egestas tristique tristique, eleifend hendrerit ipsum. Pellentesque nec nisi bibendum, tempus metus at, egestas lacus. Proin blandit velit ac risus pellentesque mollis. Etiam at mauris justo. Nulla vel velit id sem dignissim mattis. </p>
+                     </div>
+                 </div>
+            </div>
+           
+             <div class="col-md-4 col-sm-6 col-xs-12">
+                 <div id="Beef">
+                     <div id="box">
+                         <span>Beef</span>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at dolor velit. Curabitur tortor eros, rutrum egestas tristique tristique, eleifend hendrerit ipsum. Pellentesque nec nisi bibendum, tempus metus at, egestas lacus. Proin blandit velit ac risus pellentesque mollis. Etiam at mauris justo. Nulla vel velit id sem dignissim mattis. </p>
+                     </div>
+                 </div>
+            </div>
+            
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div id="Sushi">
+                    <div id="box">
+                        <span>Sushi</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at dolor velit. Curabitur tortor eros, rutrum egestas tristique tristique, eleifend hendrerit ipsum. Pellentesque nec nisi bibendum, tempus metus at, egestas lacus. Proin blandit velit ac risus pellentesque mollis. Etiam at mauris justo. Nulla vel velit id sem dignissim mattis. </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+    
+  
+
+
+</body>
+</html>
